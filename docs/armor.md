@@ -31,3 +31,7 @@ K is a dynamically changing value that depends on the mob attacking the player a
 | Sepulcher of the First Ones Normal | 3545 |
 | Sepulcher of the First Ones Heroic | 3842.5 |
 | Sepulcher of the First Ones Mythic | 4175 |
+| Fated Season 4 Raids LFR | 3842.5 |
+| Fated Season 4 Raids Normal | 4175 |
+| Fated Season 4 Raids Heroic | 4552.5 |
+| Fated Season 4 Raids Mythic | 4980 |
