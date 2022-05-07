@@ -15,7 +15,7 @@
 
 ## K Value
 
-K is a content specific value that determines how effective [Armor](../armor.md), [Block](../block.md) and Stagger are.
+K is a content specific value that determines how effective [Armor](../character/armor.md), [Block](../character/block.md) and Stagger are.
 
 | Difficulty | K Value|
 | --- | --- |

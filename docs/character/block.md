@@ -28,4 +28,4 @@ $$
 \frac{block\:value}{block\:value+k}
 $$
 
-See [K Value](system/constants-sl.md)
+See [K Value](../system/constants-sl.md)

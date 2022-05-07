@@ -30,4 +30,5 @@ At level 60, P is **138.75176305** and D is **39**.
 Different classes can have different values from the standard v and h.
 
 
-Demon Hunter V is **0.02**.
+Demon Hunter `v` is **0.02**.
+Druid `h` is **1/0.97**

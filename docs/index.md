@@ -14,6 +14,14 @@ It requires the active involvement of the existing and future Theorycrafting com
 - new TCs
 - general wow math nerds
 
+## Temporary list of files (until there is some navigation/TOC)
+- [Armor](character/armor.md)
+- [Block](character/block.md)
+- [Parry](character/parry.md)
+- [Dodge](character/dodge.md)
+- [Armor](character/armor.md)
+- [Shadowlands 'constants'](system/constants-sl.md)
+- [Stat scaling](system/stat-scaling.md)
 
 ## What to do
 1. Check out [Example](example.md) and [Contributing](contributing.md) in the left navigation.

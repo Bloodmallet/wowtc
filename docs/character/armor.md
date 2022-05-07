@@ -7,4 +7,4 @@ $$
 \frac{armor}{armor+k}
 $$
 
-See [K Value](system/constants-sl.md)
+See [K Value](../system/constants-sl.md)
