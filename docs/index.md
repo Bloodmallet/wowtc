@@ -19,7 +19,6 @@ It requires the active involvement of the existing and future Theorycrafting com
 - [Block](character/block.md)
 - [Parry](character/parry.md)
 - [Dodge](character/dodge.md)
-- [Armor](character/armor.md)
 - [Shadowlands 'constants'](system/constants-sl.md)
 - [Stat scaling](system/stat-scaling.md)
 
