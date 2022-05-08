@@ -7,7 +7,7 @@ date: 2022-04-19
 ---
 # Example Title
 
-![Floating Quest Marker](images/example/floating-quest-marker.jpg){ align=right }
+![Floating Quest Marker](_images/example/floating-quest-marker.jpg){ align=right }
 ## Short Description
 A short explanation what this is about and how to identify it.
 
@@ -42,7 +42,7 @@ Images of articles are grouped in directories matching their articles name at `/
 
 Image | Description
 --- | ---
-![Floating Quest Marker](images/example/floating-quest-marker.jpg) | Text description of image to provide some context.
+![Floating Quest Marker](_images/example/floating-quest-marker.jpg) | Text description of image to provide some context.
 
 !!! note ""
     On the other hand, if this file would be `/docs/character/critical_strike.md` its images would be at `/docs/images/character/critical_strike/*`

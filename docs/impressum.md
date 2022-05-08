@@ -1,3 +1,6 @@
+---
+title: Impressum
+---
 ## Contact
 E-Mail: `bloodmalleteu@gmail.com`
 

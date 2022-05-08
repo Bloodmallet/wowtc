@@ -1,3 +1,7 @@
+---
+title: Contributing
+---
+
 # Welcome
 Thank you for helping.
 

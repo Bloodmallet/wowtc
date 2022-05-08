@@ -1,3 +1,6 @@
+---
+title: WoW-TC
+---
 # World of Warcraft Theorycrafting
 
 ## Scope / Goal / Motivation
