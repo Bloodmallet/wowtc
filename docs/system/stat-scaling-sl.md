@@ -1,4 +1,4 @@
-# Stat Scaling, Shadowlands values
+# Stat Scaling on Gear (Shadowlands)
 
 ## Portions of the budget allocated to items per slot per stat.
 
@@ -32,7 +32,7 @@ For example trinkets usually have one stat and the rest are zeroed.
 | Leather | 0.450825 |
 | Cloth | \(\frac{89}{339} \approx 0.2625\) |
 
-## Armor portions per slot
+## Armor weights per slot
 
 - Located in the `ArmorLocation` table (pun intended), these specify how much of the 'total' each slot is allocated.
 - Shields are not strictly in that table, however those have their own budget function which is proportional to the general function.
@@ -47,3 +47,22 @@ For example trinkets usually have one stat and the rest are zeroed.
 | Belt / Gloves | 0.09 | \(\frac{9}{16}\) |
 | Bracers | 0.08 | \(\frac{8}{16}\) |
 | Shield | \(\approx 0.46881584 \) | \(\approx 2.93\) |
+
+## Budget functions
+
+We'll specify a few of the budget functions here and their general form in Shadowlands with rest given in a 'usable' form in a calculator below.
+Additionaly to allow for plain text representation we'll shortcut \(E(x) \equiv 1.15^{\frac{1}{15}*x}\)
+
+- General budget is `18.8176119*E(x)`
+- Armor budget is `105.07158*E(x)+526.2159`
+- Weapon dps is `5.6244*E(x)` for one handers and `x1.32441` for two handers.
+
+## Multiplier functions for stamina and secondaries
+
+- Secondaries mult. on Jewelry is `(0.08743624*x-8.1372727)/E(x)`
+- Secondaries mult. on other items is `(0.05464765*x-1.59191)/E(x)`
+- Stamina mult. is `0.00362x+0.4029`
+
+An examle using the above: given the proportion of budget for secondaries on jewelry to other items (1.75 / 0.7), the difference in the slopes of multipliers and weights you could deduce that rings gains x2.25 more secondaries per item level than chests.
+
+For how the above is used see [Calculator](https://www.desmos.com/calculator/vmepvsshcb)
