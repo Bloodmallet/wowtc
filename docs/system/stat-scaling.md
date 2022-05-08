@@ -1,4 +1,4 @@
-# Stats on Gear
+# Stat Scaling on Gear
 
 ## Introduction
 The amount of stats on gear is governed by the item budget, that `budget` is distributed to various properties of the item. Though unlike having 100 gold and only being able to spend 100% of it, more than 100% of the `budget` can be spent.
