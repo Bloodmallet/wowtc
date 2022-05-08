@@ -1,4 +1,4 @@
-# 'Constants' in Shadowlands
+# 'Constants' (Shadowlands)
 
 ## Stat rating to percent conversion at level 60
 

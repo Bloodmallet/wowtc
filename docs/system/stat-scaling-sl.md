@@ -63,6 +63,6 @@ Additionaly to allow for plain text representation we'll shortcut \(E(x) \equiv 
 - Secondaries mult. on other items is `(0.05464765*x-1.59191)/E(x)`
 - Stamina mult. is `0.00362x+0.4029`
 
-An examle using the above: given the proportion of budget for secondaries on jewelry to other items (1.75 / 0.7), the difference in the slopes of multipliers and weights you could deduce that rings gains x2.25 more secondaries per item level than chests.
+An examle using the above: given the proportion of budget for secondaries on jewelry to other items (1.75 / 0.7), the difference in the slopes of multipliers and weights you could deduce that rings gain x2.25 more secondaries per item level than chests.
 
 For how the above is used see [Calculator](https://www.desmos.com/calculator/vmepvsshcb)
