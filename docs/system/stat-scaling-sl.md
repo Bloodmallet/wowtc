@@ -35,6 +35,7 @@ For example trinkets usually have one stat and the rest are zeroed.
 ## Armor portions per slot
 
 - Located in the `ArmorLocation` table (pun intended), these specify how much of the 'total' each slot is allocated.
+- Shields are not strictly in that table, however those have their own budget function which is proportional to the general function.
 
 | Slot | Weight / Ratio | Normalized weight |
 | --- | --- | --- |
