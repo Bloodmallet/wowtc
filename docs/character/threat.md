@@ -17,7 +17,7 @@ Some actions may force a target selection, eg. if the current target becomes in-
 ## Tanks
 
 - Tank specs/forms have a modifier that increases damage to threat conversion by **450%** (you generate x5.5 damage as threat)
-- Some abilities when executed by said specs [Throw Glaive, Heroic Throw] gain additional **400%** threat (x5)
+- Throw Glaive and Heroic Throw gain additional **400%** threat (x5) when executed by a tank spec
 - Tank specs/forms generally do not generate threat from healing, some of it is defined in that spec's 'aura' and some on specific spells (*there may be exceptions*).
 
 All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
