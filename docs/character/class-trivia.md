@@ -12,9 +12,9 @@ From the above the two effects (absorb and damage) can both happen or only one c
 
 ### Blessed Hammer
 
-Rotates clockwise in an [Archimedean spiral](https://www.desmos.com/calculator/gfmndxsmek){target=_blank} starting directly behind you (3/2pi) and finishing 3 rotations after 5 seconds at the same angle reaching roughly 10y range at the final point.
+Rotates clockwise in an [Archimedean spiral](https://www.desmos.com/calculator/gfmndxsmek){target=_blank} starting directly behind you (3/2pi) and finishing 2 rotations after 5 seconds at the same angle reaching roughly 10y range at the final point.
 
-It can hit the same target anywhere from 0 to 3 times depending on the size of target's hit box, presumably at most once per rotation.
+It can hit the same target anywhere from 0 to N times depending on the size of target's hit box, presumably every time it intersects the hit box (usually ~2 hits on normal sized mobs).
 
 The debuff it applies 'works' on **any** damage as long as it's sourced to the target with the debuff.
 
