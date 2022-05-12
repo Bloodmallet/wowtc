@@ -19,8 +19,12 @@ Some actions may force a target selection, eg. if the current target becomes in-
 ## Taunt
 
 - Forces the target to attack you for a duration
-- Sets your threat against the target to the highest value currently on the monster's threat table
+- Sets your threat against the monster to the value of whoever is tanking (**$1,2**)
 - Applies a debuff to the target for a duration that increases threat conversion by **400%** (x5)
+
+**$1**: For instance, your cotank is the current target of the monster but has less threat than a mage who is at 125% threat, taunting will make you the target but you will have less threat than the mage.
+
+**$2**: Your cotank is about to overagro, taunting will not equalize your threat it will only apply the taunt debuff on the target.
 
 Most bosses gain 'resistance' to taunt's effects when they are taunted repeatedly, generally referred to as taunt 'dr'. Bosses whose mechanics necessitate frequent taunts are exempt on a case by case basis.
 
@@ -48,7 +52,3 @@ Heroic Throw deals 100 damage* and generates `100*5.5*5*4=11000` threat (x5.5 fr
 | Brew | Aura, #12 (id=260843) | (id=739778) [Chi Wave, Chi Burst], specific spells via `No Threat (42)` flag |
 | Prot. Warrior | Aura, #4 (id=191018) | (id=261030) [Victory Rush], specific spells via `No Threat (42)` flag |
 | Prot. Paladin | Righteous Fury (id=25780) | (id=256092) [Lay on Hands, Flash of Light, Word of Glory, Arcing Light], specific spells via `No Threat (42)` flag |
-
-### TODO
-
-- Check whether taunt actually set your threat to the highest value in the table rather than the value of the target currently tanking, the distinction being that you can be the current target and not be the highest on the table
