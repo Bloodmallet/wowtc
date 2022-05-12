@@ -2,7 +2,7 @@
 
 ## General description
 
-Each monster has a threat table, it sums all the 'hostile' actions performed against it per actor (player, pet etc.). These actions are damage, healing and generating rage or fury.
+Each monster has a threat table, it sums all the 'hostile' actions performed against it per actor (player, pet etc.). These actions are damage, healing and generating resources.
 
 Actors are generally separate entities, so a player's pet/totem/minion generates threat for itself with some exceptions, eg. Dancing Rune weapon (it's hypothesized that the distinction is when said actor is never targetable).
 
@@ -38,4 +38,5 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 ### TODO
 
 - Check whether taunt actually set your threat to the highest value in the table rather than the value of the target currently tanking, the distinction being that you can be the current target and not be the highest on the table
+- Check whether mana, rp, energy and fury generate threat
 - Add specific locations where threat modifiers may be found in the data
