@@ -20,6 +20,7 @@ Some actions may force a target selection, eg. if the current target becomes in-
 
 - Tank specs/forms have a modifier that increases threat conversion by **450%** (you generate x5.5 damage as threat)
 - Throw Glaive and Heroic Throw gain additional **300%** threat (x4) when executed by a tank spec
+- Dancing Rune Weapon generates x10 threat from damage that's attributed to the player
 - Tank specs/forms generally do not generate threat from healing, some of it is defined in that spec's 'aura' and some on specific spells (*there are exceptions*). Some notable exceptions in Shadowlands are Indomitable and Condensed Anima Sphere, there are likely others.
 
 All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
