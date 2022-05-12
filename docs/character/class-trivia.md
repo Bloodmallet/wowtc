@@ -20,4 +20,12 @@ The debuff it applies 'works' on **any** damage as long as it's sourced to the t
 
 ## Monk
 
-- Uppon exiting combat your stagger pool is removed after at most 4 seconds (8 ticks).
+### Stagger
+
+Uppon exiting combat your stagger pool is removed after at most 4 seconds (8 ticks).
+
+### Black Ox Statue
+
+Pulses threat in a radius (?y) every 3s, the amount of threat per pulse is x1.25 of your total AP
+
+Has 50% of your HP at the time of summon, ~95% damage reduction against AoE, ~15% damage reduction against direct magic damage, ~75% damage reduction against direct physical damage.

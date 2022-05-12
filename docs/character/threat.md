@@ -2,11 +2,13 @@
 
 ## General description
 
-Each monster has a threat table, it sums all the 'hostile' actions performed against it per actor (player, pet etc.). These actions are damage, healing and generating resources.
+Each monster has a threat table, it sums all the 'hostile' actions performed against it per actor (player, pet etc.). These actions are damage, healing and generating rage (and only rage).
 
 Actors are generally separate entities, so a player's pet/totem/minion generates threat for itself with some exceptions, eg. Dancing Rune weapon (it's hypothesized that the distinction is when said actor is never targetable).
 
-Generally within end game content threat is 1 to 1 with damage (in open world or content where level scaling is applied that may vary), healing is 1 to 0.5 split among all enemies in combat, generating resources is 1 to 1 split among all enemies in combat.
+Generally within end game content threat is 1 to 1 with damage (in open world or content where level scaling is applied that may vary) and healing is 1 to 0.5 split among all enemies in combat.
+
+Druids in bear form and protection warriors gain threat from generating rage, though it seems archaic (a vestige from classic), the threat is split between all enemies in combat, the amount of threat generated this way is negligble.
 
 ## Target selection
 
@@ -38,5 +40,4 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 ### TODO
 
 - Check whether taunt actually set your threat to the highest value in the table rather than the value of the target currently tanking, the distinction being that you can be the current target and not be the highest on the table
-- Check whether mana, rp, energy and fury generate threat
 - Add specific locations where threat modifiers may be found in the data
