@@ -16,16 +16,6 @@ A monster chooses to attack an eligible actor with preference to it's melee rang
 
 Some actions may force a target selection, eg. if the current target becomes in-eligible (Immune), 'dropping' threat, taunting.
 
-## Tanks
-
-- Tank specs/forms have a modifier that increases threat conversion by **450%** (you generate x5.5 damage as threat)
-- Throw Glaive and Heroic Throw gain additional **300%** threat (x4) when executed by a tank spec
-- Dancing Rune Weapon generates x10 threat from damage that's attributed to the player
-- Tank specs/forms generally do not generate threat from healing, some of it is defined in that spec's 'aura' and some on specific spells (*there are exceptions*). Some notable exceptions in Shadowlands are Indomitable and Condensed Anima Sphere, there are likely others.
-
-All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
-Heroic Throw deals 100 damage* and generates `100*5.5*5*4=11000` threat (x5.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
-
 ## Taunt
 
 - Forces the target to attack you for a duration
@@ -38,7 +28,27 @@ Specifically each taunt's duration after the first is reduced by **35%** success
 
 That resistance/'dr' is reset after **20s** of the boss not being taunted or being immune.
 
+## Tanks
+
+- Tank specs/forms have a modifier that increases threat conversion by **450%** (you generate x5.5 damage as threat)
+- Throw Glaive and Heroic Throw gain additional **300%** threat (x4) when executed by a tank spec (the location for that modifier is unknown)
+- Dancing Rune Weapon generates x10 threat from damage that's attributed to the player
+- Tank specs/forms are *supposed* to not generate threat from healing, however it's implemented via blacklisting some in that spec's 'aura' and some on specific spells (*there are exceptions*). Since the effects need to be blacklisted expect plenty of exceptions, some notable in Shadowlands are Indomitable, Condensed Anima Sphere and Keg of Heavens, there are very likely others.
+
+All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
+Heroic Throw deals 100 damage* and generates `100*5.5*5*4=11000` threat (x5.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
+
+### Threat Modifiers
+
+| Spec | 450% increased threat | No threat from healing |
+| --- | --- | --- |
+| Vengence | Increased Threat (id=189926) | specific spells via `No Threat (42)` flag |
+| Druid | Bear Form Passive 2 (id=21178) | (id=299393) [Rejuvenation, Cenarion Ward, Renewal], specific spells via `No Threat (42)` flag |
+| Blood | Aura, #9 (id=260810) | (id=40418, 805637) [Death Coil, Unholy Strength], specific spells via `No Threat (42)` flag |
+| Brew | Aura, #12 (id=260843) | (id=739778) [Chi Wave, Chi Burst], specific spells via `No Threat (42)` flag |
+| Prot. Warrior | Aura, #4 (id=191018) | (id=261030) [Victory Rush], specific spells via `No Threat (42)` flag |
+| Prot. Paladin | Righteous Fury (id=25780) | (id=256092) [Lay on Hands, Flash of Light, Word of Glory, Arcing Light], specific spells via `No Threat (42)` flag |
+
 ### TODO
 
 - Check whether taunt actually set your threat to the highest value in the table rather than the value of the target currently tanking, the distinction being that you can be the current target and not be the highest on the table
-- Add specific locations where threat modifiers may be found in the data
