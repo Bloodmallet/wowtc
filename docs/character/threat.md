@@ -4,27 +4,27 @@
 
 Each monster has a threat table, it sums all the 'hostile' actions performed against it per actor (player, pet etc.). These actions are damage, healing and generating rage (and only rage).
 
-Actors are generally separate entities, so a player's pet/totem/minion generates threat for itself with some exceptions, eg. Dancing Rune weapon (it's hypothesized that the distinction is when said actor is never targetable).
+Actors are generally separate entities, so a player's pet/totem/minion generates threat for itself, with some exceptions, eg. Dancing Rune weapon (it's hypothesized that the distinction is when said actor is never targetable).
 
 Generally within end game content threat is 1 to 1 with damage (in open world or content where level scaling is applied that may vary) and healing is 1 to 0.5 split among all enemies in combat.
 
-Druids in bear form and protection warriors gain threat from generating rage, though it seems archaic (a vestige from classic), the threat is split between all enemies in combat, the amount of threat generated this way is negligble.
+Druids in bear form and protection warriors gain threat from generating rage, though it seems archaic (a vestige from classic), the threat is split between all enemies in combat (the amount of threat generated this way is negligble).
 
 ## Target selection
 
-A monster chooses to attack an eligible actor with preference to it's melee range. It chooses a new target if said target exceedes **110%** threshhold of the current target's threat when the new target is in melee range and **130%** if it is not.
+A monster chooses to attack an eligible actor with preference to it's melee range. It chooses a new target if said target exceedes **110%** threshhold of the current target's threat if the new target is in melee range and **130%** if it is not.
 
 Some actions may force a target selection, eg. if the current target becomes in-eligible (Immune), 'dropping' threat, taunting.
 
 ## Taunt
 
 - Forces the target to attack you for a duration
-- Sets your threat against the monster to the value of whoever is tanking (**$1,2**)
+- Sets your threat against the target to the value of whoever is tanking (see **1,2**)
 - Applies a debuff to the target for a duration that increases threat conversion by **400%** (x5)
 
-**$1**: For instance, your cotank is the current target of the monster but has less threat than a mage who is at 125% threat, taunting will make you the target but you will have less threat than the mage.
+**1**. Your cotank is the current target but has less threat than a mage who is at 125% threat, taunting will make you the target but you will have less threat than the mage.
 
-**$2**: Your cotank is about to overagro, taunting will not equalize your threat it will only apply the taunt debuff on the target.
+**2**. Your cotank is about to overagro, taunting will not equalize your threat, it will only apply the taunt debuff to the monster.
 
 Most bosses gain 'resistance' to taunt's effects when they are taunted repeatedly, generally referred to as taunt 'dr'. Bosses whose mechanics necessitate frequent taunts are exempt on a case by case basis.
 
