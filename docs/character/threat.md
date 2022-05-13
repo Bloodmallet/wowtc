@@ -35,7 +35,7 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 ## Tanks
 
 - Tank specs/forms have a modifier that increases threat conversion by **450%** (you generate x5.5 damage as threat)
-- Throw Glaive and Heroic Throw gain additional **300%** threat (x4) when executed by a tank spec (the location for that modifier is unknown)
+- Some spells when executed by a tank have an additional modifier to threat, see the table (the location for that modifier is unknown)
 - Dancing Rune Weapon generates x10 threat from damage that's attributed to the player
 - Tank specs/forms are *supposed* to not generate threat from healing, this is implemented via blacklisting in the spec's 'aura' and on specific spells (*there are exceptions*).
 
@@ -43,6 +43,14 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 - All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
 
 	Heroic Throw deals 100 damage* and generates `100*5.5*5*4=11000` threat (x5.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
+
+### 'Special' spells
+
+| Spell | Modifier |
+| --- | --- |
+| Throw Glaive | +300% (x4) |
+| Heroic Throw | +300% (x4) |
+| Thrash (dot) | +100% (x2) |
 
 ### Threat Modifiers
 
