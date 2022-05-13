@@ -19,7 +19,7 @@ Some actions may force a target selection, eg. if the current target becomes in-
 ## Taunt
 
 - Forces the target to attack you for a duration
-- Sets your threat against the target to the value of whoever is tanking (see **1,2**)
+- Increases your threat against the target to the value of whoever is tanking (if whoever is tanking has more threat than you, also see **1,2**)
 - Applies a debuff to the target for a duration that increases threat conversion by **400%** (x5)
 
 **1**. Your cotank is the current target but has less threat than a mage who is at 125% threat, taunting will make you the target but you will have less threat than the mage.
@@ -37,10 +37,12 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 - Tank specs/forms have a modifier that increases threat conversion by **450%** (you generate x5.5 damage as threat)
 - Throw Glaive and Heroic Throw gain additional **300%** threat (x4) when executed by a tank spec (the location for that modifier is unknown)
 - Dancing Rune Weapon generates x10 threat from damage that's attributed to the player
-- Tank specs/forms are *supposed* to not generate threat from healing, however it's implemented via blacklisting some in that spec's 'aura' and some on specific spells (*there are exceptions*). Since the effects need to be blacklisted expect plenty of exceptions, some notable in Shadowlands are Indomitable, Condensed Anima Sphere and Keg of Heavens, there are very likely others.
+- Tank specs/forms are *supposed* to not generate threat from healing, this is implemented via blacklisting in the spec's 'aura' and on specific spells (*there are exceptions*).
 
-All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
-Heroic Throw deals 100 damage* and generates `100*5.5*5*4=11000` threat (x5.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
+	Since the effects need to be manually blacklisted expect plenty of exceptions, some notables in Shadowlands are Indomitable, Condensed Anima Sphere and Keg of Heavens, there are very likely others.
+- All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
+
+	Heroic Throw deals 100 damage* and generates `100*5.5*5*4=11000` threat (x5.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
 
 ### Threat Modifiers
 
