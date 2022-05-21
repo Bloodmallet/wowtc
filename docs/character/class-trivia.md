@@ -1,3 +1,7 @@
+---
+description: Class or spec specific "good to know" information that doesn't yet have its own site.
+---
+
 ## Paladin
 
 ### Holy Shield
