@@ -41,9 +41,9 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 
 	Since the effects need to be manually blacklisted expect plenty of exceptions, some notables in Shadowlands are Indomitable, Condensed Anima Sphere and Keg of Heavens, there are very likely others.
 
-- All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target:
+- All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target*:
 
-	Heroic Throw deals 100 damage* and generates `100*6.5*5*4=11000` threat (x6.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
+	Heroic Throw deals 100 damage and generates `100*6.5*5*4=11000` threat (x6.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
 
 ### 'Special' spells
 
@@ -57,7 +57,7 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 
 | Spec | 550% increased threat | No threat from healing |
 | --- | --- | --- |
-| Vengence | Increased Threat (id=189926) | specific spells via `No Threat (42)` flag |
+| Vengeance | Increased Threat (id=189926) | specific spells via `No Threat (42)` flag |
 | Druid | Bear Form Passive 2 (id=21178) | (id=299393) [Rejuvenation, Cenarion Ward, Renewal], specific spells via `No Threat (42)` flag |
 | Blood | Aura, #9 (id=260810) | (id=40418, 805637) [Death Coil, Unholy Strength], specific spells via `No Threat (42)` flag |
 | Brew | Aura, #12 (id=260843) | (id=739778) [Chi Wave, Chi Burst], specific spells via `No Threat (42)` flag |
