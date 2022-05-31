@@ -43,7 +43,7 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 
 - All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target*:
 
-	Heroic Throw deals 100 damage and generates `100*6.5*5*4=11000` threat (x6.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
+	Heroic Throw deals 100 damage and generates `100*6.5*5*4=13000` threat (x6.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
 
 ### 'Special' spells
 
