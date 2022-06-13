@@ -86,10 +86,6 @@ This allows the player to see multiple Overloads one after another instead of ov
 | 2 | 18% |
 | 1 | 80% |
 
-An alternative approach is to assume 1 additional Overload to be the starting point of this talent.
-This starting point has a 20% chance to upgrade itself to at least 2 Overloads.
-These 2 Overloads again have a 20% chance to upgrade themselves to 3 Overloads. 
-
 !!! info "How to reproduce"
     1. Cast [Lightning Bolt](https://www.wowhead.com/spell=188196/lightning-bolt) and [Earth Shock](https://www.wowhead.com/spell=8042/earth-shock) at a target dummy. 
     1. Filter the log to [Lightning Bolt](https://www.wowhead.com/spell=188196/lightning-bolt) and their Overloads right after casting [Earth Shock](https://www.wowhead.com/spell=8042/earth-shock).
