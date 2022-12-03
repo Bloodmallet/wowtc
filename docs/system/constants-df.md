@@ -1,6 +1,6 @@
 # 'Constants' (Dragonflight)
 
-## Stat rating to percent conversion at level 60
+## Stat rating to percent conversion at level 70
 
 | Stat | rating |
 | --- | --- |
