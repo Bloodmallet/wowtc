@@ -4,16 +4,6 @@ description: Class or spec specific "good to know" information that doesn't yet 
 
 ## Paladin
 
-### Holy Shield
-
-Despite the description does not allow you to **block** spells, it grants you the ability to absorb spells, it does not require a shield to activate or face the target or in fact even have a target.
-
-It's an absorb that has a chance equal to you block chance to proc and it's value is based on the block value of your shield.
-
-For example not having a shield equipped will still proc Holy Shield that doesn't absorb anything (since your block value is 0) but deals damage if the damage that was 'absorbed' is sourced to a valid target.
-
-From the above the two effects (absorb and damage) can both happen or only one can, though damaging a target and not absorbing is fairly unlikely unless you for some reason chose to not use a shield.
-
 ### Blessed Hammer
 
 Rotates clockwise in an [Archimedean spiral](https://www.desmos.com/calculator/gfmndxsmek){target=_blank} starting directly behind you (3/2pi) and finishing 2 rotations after 5 seconds at the same angle reaching roughly 10y range at the final point.
@@ -27,13 +17,17 @@ The debuff it applies 'works' on **any** damage as long as it's sourced to the t
 
 ### Stagger
 
-Uppon exiting combat your stagger pool is removed after at most 4 seconds (8 ticks).
+- Uppon exiting combat your stagger pool is removed after at most 4 seconds (8 ticks).
 
 ### Black Ox Statue
 
 Pulses threat in a radius (?y) every 3s, the amount of threat per pulse is x1.25 of your total AP
 
 Has 50% of your HP at the time of summon, ~95% damage reduction against AoE, ~15% damage reduction against direct magic damage, ~75% damage reduction against direct physical damage.
+
+### Dampen Harm
+
+Damage reduction is proportional to damage taken after mitigation (armor, versatility etc.; stagger is not considered mitigation) and follows `.2+.3*x` where x is damage taken / max health.
 
 
 ## Shaman
@@ -49,7 +43,7 @@ The spell [Mastery: Elemental Overload](https://www.wowhead.com/spell=168534/mas
 But each Overloads spelldata matches the spellpower coefficient of the base spell. This means the aforementioned multiplier is like a hidden buff (or debuff) for all Overloads.
 
 !!! warning ""
-    Because player spells and Overloads are separate spells there occasionally existed times when Overloads did not deal an appropriate amount of damage. 
+    Because player spells and Overloads are separate spells there occasionally existed times when Overloads did not deal an appropriate amount of damage.
 
 | Player spell | Elemental Overload spell | Type |
 | --- | --- | --- |
@@ -87,6 +81,6 @@ This allows the player to see multiple Overloads one after another instead of ov
 | 1 | 80% |
 
 !!! info "How to reproduce"
-    1. Cast [Lightning Bolt](https://www.wowhead.com/spell=188196/lightning-bolt) and [Earth Shock](https://www.wowhead.com/spell=8042/earth-shock) at a target dummy. 
+    1. Cast [Lightning Bolt](https://www.wowhead.com/spell=188196/lightning-bolt) and [Earth Shock](https://www.wowhead.com/spell=8042/earth-shock) at a target dummy.
     1. Filter the log to [Lightning Bolt](https://www.wowhead.com/spell=188196/lightning-bolt) and their Overloads right after casting [Earth Shock](https://www.wowhead.com/spell=8042/earth-shock).
     1. Remove baseline Overloads.

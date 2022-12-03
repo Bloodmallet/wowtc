@@ -34,7 +34,7 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 
 ## Tanks
 
-- Tank specs/forms have a modifier that increases threat conversion by **550%** (you generate x6.5 damage as threat)
+- Tank specs/forms have a modifier that increases threat conversion by **650%** (you generate x7.5 damage as threat)
 - Some spells when executed by a tank have an additional modifier to threat, see the table (the location for that modifier is unknown)
 - Dancing Rune Weapon generates x10 threat from damage that's attributed to the player
 - Tank specs/forms are *supposed* to not generate threat from healing, this is implemented via blacklisting in the spec's 'aura' and on specific spells (*there are exceptions*).
@@ -43,7 +43,7 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 
 - All threat modifiers are multiplicative, eg. *a Protection Warrior casts Taunt followed by Heroic Throw on a target*:
 
-	Heroic Throw deals 100 damage and generates `100*6.5*5*4=13000` threat (x6.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
+	Heroic Throw deals 100 damage and generates `100*7.5*5*4=15000` threat (x7.5 from protection spec, x5 from Taunt debuff, x4 from Heroic Throw modifier).
 
 ### 'Special' spells
 
@@ -55,7 +55,7 @@ That resistance/'dr' is reset after **20s** of the boss not being taunted or bei
 
 ### Threat Modifiers
 
-| Spec | 550% increased threat | No threat from healing |
+| Spec | 650% increased threat | No threat from healing |
 | --- | --- | --- |
 | Vengeance | Increased Threat (id=189926) | specific spells via `No Threat (42)` flag |
 | Druid | Bear Form Passive 2 (id=21178) | (id=299393) [Rejuvenation, Cenarion Ward, Renewal], specific spells via `No Threat (42)` flag |
