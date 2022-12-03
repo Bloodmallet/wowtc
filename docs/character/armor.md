@@ -7,4 +7,4 @@ $$
 \frac{armor}{armor+k}
 $$
 
-See **K Value* [Dragonflight](../system/constants-df.md), [Shadowlands](../system/constants-sl.md)
+See **K Value** [Dragonflight](../system/constants-df.md), [Shadowlands](../system/constants-sl.md)
