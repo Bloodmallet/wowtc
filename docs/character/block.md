@@ -15,12 +15,12 @@ $$
 
 For Protection Paladin **X** is 1, for Protection Warrior **X** is 0.5
 
-Flat modifiers are things such as [Holy Shield](https://www.wowhead.com/spell=152261/holy-shield){target=_blank} add to your block chance.
+Flat modifiers such as [Holy Shield](https://www.wowhead.com/spell=152261/holy-shield){target=_blank} add to your block chance.
 
 
 ## Block Value
 Blocking attacks causes them to deal reduced damage, this damage reduction is based on your block value.
-This form of damage reduction is hard capped at 85%.
+Like armor this form of damage reduction (against physical damage) cannot exceed 85%.
 
 $$
 \frac{block\:value}{block\:value+k}
