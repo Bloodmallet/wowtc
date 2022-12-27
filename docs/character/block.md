@@ -27,7 +27,7 @@ $$
 $$
 
 ## Spell Block
-By default only attacks that deal physical damage can be blocked, some talents / abilities (eg. Holy Shield) allow for spells to be blocked. The restriction on being able to block a spell is generally the same as attacks, specifically you have to be facing the enemy and not be casting or channeling. The spell needs to be specifically directed at you and deal impact damage (dots cannot be blocked this way).
+By default only attacks that deal physical damage can be blocked, some talents / abilities (eg. Holy Shield) allow spells to be blocked. The restriction on being able to block a spell is generally the same as for an attack, specifically you have to be facing the enemy and not be casting or channeling. The spell needs to be directed at you and deal impact damage (dots cannot be blocked this way).
 
 See more [here](https://www.mmo-champion.com/content/10859-Upcoming-Changes-to-the-Spell-Block-Talent-for-Protection-Paladins-and-Warriors){target=_blank}
 
