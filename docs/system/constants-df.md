@@ -26,5 +26,5 @@ K is a content specific value that determines how effective [Armor](../character
 | Vault of the Incarnates Heroic | 15084.012 |
 | Vault of the Incarnates Mythic | 16284.144 |
 
-[Future content K values](https://www.desmos.com/calculator/rwyvo1eksj){target=_blank}
+[Future content K values](https://www.desmos.com/calculator/8mm1xrj2j1){target=_blank}
 
